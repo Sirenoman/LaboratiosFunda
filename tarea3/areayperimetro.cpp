@@ -11,6 +11,7 @@ int main()
     cout << " ¡PROGRAMA PARA CALCULAR AREA Y PERIMETRO DE UN CIRCULO! "<<endl;
     cout << "Inserte valor del radio que consiguio : ";
     cin >> radio;
+    cout <<endl;
     per = (2*radio)* PI;
     ar = PI * pow(radio,2);
     cout << "El perimetro es: "<<per<<endl;
