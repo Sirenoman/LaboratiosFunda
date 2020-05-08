@@ -11,7 +11,7 @@ int main()
     cout <<"->Programa para sacar promedio de tres numeros Enteros"<<endl;
     cout << "Inserte primer numero:"; 
     cin >> num1;
-    cout <<"Inserte segundo numclero: ";
+    cout <<"Inserte segundo numero: ";
     cin >> num2;
     cout <<"Ahora, Tercer numero: ";
     cin >> num3;
