@@ -15,6 +15,7 @@ int main()
     per = (2*radio)* PI;
     ar = PI * pow(radio,2);
     cout << "El perimetro es: "<<per<<endl;
-    cout << "El area es: "<<ar<<endl;
+    cout << "El area es: "<<ar<<endl;   
 
+    return 0;
 }

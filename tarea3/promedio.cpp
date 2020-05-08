@@ -17,4 +17,6 @@ int main()
     cin >> num3;
     promedio = (num1+num2+num3)/3;
     cout << "Su promedio es: "<<promedio<<endl;
+
+    return 0;
 }

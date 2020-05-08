@@ -18,5 +18,6 @@ x = (-b +sqrt(pow(b,2) - 4*a*c))/(2*a);
 
 cout <<"El resultado es: ";
 cout << x<<endl;
+
 return 0;
 }
