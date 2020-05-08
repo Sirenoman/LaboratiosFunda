@@ -1,7 +1,9 @@
 #include <iostream>
+#include <string.h>
+#include <conio.h>
 
 using namespace std;
-string producto;
+
 int cant;
 float precio;
 int con = 0;
@@ -16,14 +18,16 @@ int main()
         cout << "1. Comprar"<<endl; 
         cout << "2. Retirar compra"<<endl;
         cin >> con;
+        cin.ignore(255, '\n');
         if (con == 1)
         {
             cout <<"Producto:";
-            cin >> producto;
-            cout <<endl;
+            string producto;
+            getline(cin,producto);
+            cout<<endl;
             cout <<"Cantidad: ";
             cin >> cant;
-            cout <<endl;
+            cout<<endl;
             cout <<"Precio: ";
             cin >> precio;
             cout <<endl;
@@ -36,8 +40,9 @@ int main()
 
     } while (con != 2);
     
+    cout<<"Su factura es gracias a SS: \n";
     cout <<"Total a pagar: $";
     cout <<total<<endl;
 
-    
+    return 0;
 }
