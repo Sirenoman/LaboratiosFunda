@@ -8,7 +8,7 @@ float per;
 float ar;
 int main()
 {
-    cout << " ¡PROGRAMA PARA CALCULAR AREA Y PERIMETRO DE UN CIRCULO! "<<endl;
+    cout << " PROGRAMA PARA CALCULAR AREA Y PERIMETRO DE UN CIRCULO "<<endl;
     cout << "Inserte valor del Radio : ";
     cin >> radio;
     cout <<endl;
