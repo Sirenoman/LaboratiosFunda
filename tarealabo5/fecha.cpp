@@ -19,7 +19,9 @@ int main(){
 		if(year<0)
 			cout<<"Error al digitar año.\n";
 	}while(year<0);
-	if(dia>=30 && (mes==2 || mes==4 || mes==11 ||mes==6 || mes==9)){
+	if(dia>29 && mes==2)
+		cout<<"ERROR, fecha digitada no es valida.\n";
+	else if(dia>30 && (mes==4 || mes==11 ||mes==6 || mes==9)){
 		cout<<"ERROR, fecha digitada no es valida.\n";
 	}else{
 			
