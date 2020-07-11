@@ -50,7 +50,7 @@ void leerArticulos( Articulo *datos, int n){
        cout<<endl;
        cin.ignore(100, '\n');
    }
-
+    system("cls");
 }
 //Funncion que calcula el costo por articulo
 float calcularCosto(Articulo *dato, int n){
@@ -62,17 +62,17 @@ float calcularCosto(Articulo *dato, int n){
 //Funcion que muestra el contenido del arreglo
 void mostrarArticulos(Articulo *datos, int n){
     int i;
-    cout<<"Los datos de los articulos son."<<endl;
+    cout<<"SU FACTURA ES."<<endl;
     for(i=0; i<n; i++){
         cout<<"Articulo "<<i+1<<": " << datos[i].nombreArticul << endl;
         cout<<"Cantidad: " << datos[i].cantidad << endl;
         cout<<"Precio: $" << datos[i].precio << endl;
-        cout<<"Costo por el Articulo: $" << datos[i].costoxarticulo << endl<<endl;
+        cout<<"Costo por el Articulo: $" << datos[i].costoxarticulo << endl;
     }
 }
 //Funcion que Retorna el Costo TOTAL de la compra
 void costoTotalcompra(Articulo *dato, int n){
-    cout<<"El costo total de su compra es: $";
+    cout<<"\nEl costo total de su compra es: $";
     int i; 
     float total=0;
     for(i=0; i<n; i++){
